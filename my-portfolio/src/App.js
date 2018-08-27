@@ -4,7 +4,7 @@ import logo from './logo.svg';
 
 import Header from './partials/Header';
 import Footer from './partials/Footer';
-import Nav from './partials/Nav';
+// import Nav from './partials/Nav';
 
 import Intro from './components/Intro';
 import Projects from './components/Projects';
