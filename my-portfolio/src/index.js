@@ -4,5 +4,17 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import fontawesome from '@fortawesome/fontawesome';
+
+import brands from '@fortawesome/fontawesome-free-brands';
+import regular from '@fortawesome/fontawesome-free-regular';
+import solid from '@fortawesome/fontawesome-free-solid';
+
+fontawesome.library.add(brands, regular, solid);
+
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root'),
+);
 registerServiceWorker();
