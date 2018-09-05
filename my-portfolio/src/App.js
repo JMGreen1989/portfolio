@@ -16,6 +16,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+
+
+    visable: false,
+
       icons: [
       //javascript
       {
@@ -120,26 +124,30 @@ class App extends Component {
     }));
   }
 
+  toggle = () => {
+    this.setState({
+      visable: !this.state.visable
+    })
+  }
+
   render() {
     return (
       <div>
         <Header />
         <Intro />
-        <div className="diamond">&lt;&gt;</div>
+        <AboutMe />
         <Projects
           projects={this.state.projects}
           image={this.project_image}
+          Projects={this.state.visable}
+          toggle={this.toggle}
         />
-        <div className="diamond">&lt;&gt;</div>
         <Tech
           icons={this.state.icons}
           info={this.tech_item_info}
           toggle={this.state.info_click}
           dossier={this.state.info_dossier}
         />
-        <div className="diamond">&lt;&gt;</div>
-        <AboutMe />
-        <div className="diamond">&lt;&gt;</div>
         <Contact />
         <Footer />
       </div>

@@ -5,10 +5,13 @@
   box-sizing:border-box;
 }
 
+*{
+  color: #E84514;
+}
 
 /* main tags */
 body{
-  background:#FFB9AA;
+  background: white;
   color:#eee;
 }
 
@@ -27,7 +30,7 @@ svg{
 
 /* main components */
 .name{
-  border-bottom: 4px solid #04a8e6;
+  border-bottom: 4px solid #0DE857;
   width:40%;
   margin: 0 auto;
   font-size:60px;
@@ -167,7 +170,7 @@ svg{
 }
 
 .angle_bracket:hover{
-  background:black;
+  background:green;
 }
 
 .angle_bracket::before, .angle_bracket::after, .tech_dossier::before, .tech_dossier::after{
@@ -197,12 +200,16 @@ svg{
 
 /* project components */
 .project_list{
-  display: flex;
+  display: none;
   justify-content: space-around;
   align-content:space-around;
   flex-wrap:wrap;
   padding:20px;
   margin-top:40px;
+}
+
+.visable {
+  display: flex;
 }
 
 .project_item{
@@ -328,7 +335,7 @@ svg{
 }
 
 .contact_item{
-  color:white;
+  color:green;
   padding:10px 20px;
   border-bottom: 3px solid transparent;
 }
@@ -337,3 +344,8 @@ svg{
   color:#ff3c11;
   border-bottom: 3px solid #04a8e6;
 }
+
+.intro{
+  text-align: center;
+}
+

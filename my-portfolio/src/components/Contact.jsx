@@ -11,11 +11,11 @@ function contactMe() {
         <span className="tag"> /&gt;</span>
       </h1>
       <section className="contact_list">
-        <a className="contact_item" href="mailto:JasonMGreen89@yahoo.com">
+        <a className="contact_item" href="mailto:JasonMGreen89@yahoo.com"> Email
         </a>
-        <a className="contact_item" href="https://github.com/JMGreen1989">
+        <a className="contact_item" href="https://github.com/JMGreen1989"> Github
         </a>
-        <a className="contact_item" href="https://www.linkedin.com/in/jasongreen89/">
+        <a className="contact_item" href="https://www.linkedin.com/in/jasongreen89/"> Linkedin
         </a>
       </section>
     </div>

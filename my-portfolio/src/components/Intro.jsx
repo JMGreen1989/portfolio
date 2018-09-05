@@ -1,10 +1,10 @@
 import React from 'react';
+import picture from '../picture/me.jpg';
 
 function Intro() {
   return (
     <section className="intro">
-      <h1>New York <span className="red">|</span> Web Dev</h1>
-      <div className="divider" />
+      <div><img src={picture} alt="me" className="picofme"/></div>
     </section>
   );
 }
