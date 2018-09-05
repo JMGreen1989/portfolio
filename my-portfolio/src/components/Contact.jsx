@@ -17,6 +17,8 @@ function contactMe() {
         </a>
         <a className="contact_item" href="https://www.linkedin.com/in/jasongreen89/"> Linkedin
         </a>
+        <a className="contact_item" href="https://drive.google.com/file/d/1DBx9WfXlVnqUoyvxKlS71GwycGeubWOv/view?usp=sharing"> My Resume
+        </a>
       </section>
     </div>
     );

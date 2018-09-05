@@ -85,6 +85,12 @@ class App extends Component {
   },
   projects: [
     {
+      name: 'Weather App',
+      description: 'A weather application built in react. It gives you the weather conditions for your area.',
+      github: 'https://github.com/JMGreen1989/react-weather-app',
+      tech: ['Reactjs'],
+    },
+    {
       name: 'MTPLAY',
       description: 'A New York City trivia game',
       github: 'https://github.com/JMGreen1989/mtplay',
